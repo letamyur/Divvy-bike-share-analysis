@@ -64,6 +64,7 @@ Gain some key isights by yourself using tis [dashboard](https://public.tableau.c
 ### 4.1 Overview of Key Results.
 
 * **General overview of the number of trips.**
+
 ![Image](https://github.com/user-attachments/assets/6e974b98-74e8-4791-9e8f-4c37fd259d03)
 
 * **Both user groups share a common seasonality, preferring to use bicycles in the warmer months.**

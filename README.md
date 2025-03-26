@@ -70,7 +70,7 @@ Gain some key isights by yourself using tis [dashboard](https://public.tableau.c
 ![Image](https://github.com/user-attachments/assets/1143d17f-c927-40a5-8077-e178fd0c257d)
 
 * **Regarding the distribution by bicycle type, both user types show a similar pattern in the use of classic and electric bicycles, but casual riders choose electric scooters significantly more often.**
-* ![Image](https://github.com/user-attachments/assets/cba3b7d8-6a31-40f0-92e1-fdb5ae7ac6af)
+![Image](https://github.com/user-attachments/assets/cba3b7d8-6a31-40f0-92e1-fdb5ae7ac6af)
 
 ### 4.2 Detailed Analysis of User Behavior.
 

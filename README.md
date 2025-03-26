@@ -63,14 +63,14 @@ Gain some key isights by yourself using tis [dashboard](https://public.tableau.c
 
 ### 4.1 Overview of Key Results.
 
-* General overview of the number of trips.**
+* **General overview of the number of trips.**
 ![Image](https://github.com/user-attachments/assets/6e974b98-74e8-4791-9e8f-4c37fd259d03)
 
-* Both user groups share a common seasonality, preferring to use bicycles in the warmer months.**
+* **Both user groups share a common seasonality, preferring to use bicycles in the warmer months.**
 ![Image](https://github.com/user-attachments/assets/1143d17f-c927-40a5-8077-e178fd0c257d)
 
-* Regarding the distribution by bicycle type, both user types show a similar pattern in the use of classic and electric bicycles, but casual riders choose electric scooters significantly more often.
-![Image](https://github.com/user-attachments/assets/cba3b7d8-6a31-40f0-92e1-fdb5ae7ac6af)
+* **Regarding the distribution by bicycle type, both user types show a similar pattern in the use of classic and electric bicycles, but casual riders choose electric scooters significantly more often.**
+* ![Image](https://github.com/user-attachments/assets/cba3b7d8-6a31-40f0-92e1-fdb5ae7ac6af)
 
 ### 4.2 Detailed Analysis of User Behavior.
 

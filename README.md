@@ -1,4 +1,4 @@
-# Divvy-bike-share-analysis
+# Divvy-bike-share-system-analysis
 Hey! This is my first full-fledged analytical project created as part of the Google Data Analytics course.
 ## 1. Introduction.
 
@@ -18,8 +18,9 @@ Annual users are mostly students and employees who use bicycles on their way to 
 ## 2. Description of Used Data.
 
 The data for the project consists of historical data on individual bicycle trips made by users of the Divvy service, operating in Chicago, from the beginning of January to the end of December 2024.
-The data has been made available by Motivate International Inc. under this license. And kindly provided by Google as part of the data analytics course.
-Explore the data by downloading the last 12 months of divvy-tripdata.
+The data has been made available by Motivate International Inc. under this [license.](https://divvybikes.com/data-license-agreement) And kindly provided by Google as part of the data analytics course.
+
+Explore the data by downloading the last 12 months of [divvy-tripdata.](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 ### 2.1 Dataset Contents.
 
@@ -36,7 +37,7 @@ All data is divided into 12 separate csv format files, each containing records f
 
 ## 3. Data Cleaning and Transformation.
 
-All stages of data cleaning, processing, and transformation, including Python code and comments, were documented in a (PDF)[] file exported from Jupyter Notebook. This document contains a full description of the steps taken to prepare the data for analysis.
+All stages of data cleaning, processing, and transformation, including Python code and comments, were documented in a [HTML]() file exported from Jupyter Notebook. This document contains a full description of the steps taken to prepare the data for analysis.
 However, I will briefly describe my thoughts during the process of working on the dataset.
 Since each individual dataset contained a large number of rows, and consequently a large file size, it was decided to use Python as one of the main tools for working on the project.
 

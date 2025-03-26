@@ -24,19 +24,19 @@ Explore the data by downloading the last 12 months of divvy-tripdata.
 ### 2.1 Dataset Contents.
 
 All data is divided into 12 separate csv format files, each containing records for a specific month. Here is a description of each column contained in each dataset.
-
-Ride ID (ride_id)
-Rideable Type (rideable_type)
-Started At (started_at)
-Ended At (ended_at)
-Start Station Name (start_station_name), Start Station ID (start_station_id)
-End Station Name (end_station_name), End Station ID (end_station_id)
-Start Latitude 1  and Longitude (start_lat, start_lng), End Latitude and Longitude (end_lat, end_lng)
-Member Casual (member_casual)   
+* Ride ID (ride_id)
+* Rideable Type (rideable_type)
+* Time trip started (started_at)
+* Time trip ended (ended_at)
+* Start Station Name (start_station_name), Start Station ID (start_station_id)
+* End Station Name (end_station_name), End Station ID (end_station_id)
+* Latitude andlongitude of the start of the trip (start_lat, start_lng)
+* Latitude andlongitude of the end of the trip (end_lat, end_lng)
+* User type (member_casual)   
 
 ## 3. Data Cleaning and Transformation.
 
-All stages of data cleaning, processing, and transformation, including Python code and comments, were documented in a PDF file exported from Jupyter Notebook. This document contains a full description of the steps taken to prepare the data for analysis.
+All stages of data cleaning, processing, and transformation, including Python code and comments, were documented in a (PDF)[] file exported from Jupyter Notebook. This document contains a full description of the steps taken to prepare the data for analysis.
 However, I will briefly describe my thoughts during the process of working on the dataset.
 Since each individual dataset contained a large number of rows, and consequently a large file size, it was decided to use Python as one of the main tools for working on the project.
 
@@ -47,15 +47,14 @@ Since each individual dataset contained a large number of rows, and consequently
 * Deleting unnecessary columns.
 * Calculating trip duration.
 * Extracting information about time, day, and month.
-- The final process is grouping and calculation.
+* The final process is grouping and calculation.
 As a result of all cleaning processes, the dataset size was reduced from almost 6 million to 420 thousand rows.
 
 ## 4. Data Analysis Process.
 
 For analysis and research, I chose the visualization tool Tableau, as it provides extensive opportunities for data exploration and the creation of interactive dashboards.
-Gain some key isights by yourself using tis (dashboard)[https://public.tableau.com/views/DivvyBikeShareSystem/DivvyBikeShareSystemDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link]
+Gain some key isights by yourself using tis [dashboard](https://public.tableau.com/views/DivvyBikeShareSystem/DivvyBikeShareSystemDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 **Analysis Stages:**
-
 * Building KPI indicators.
 * Building individual charts.
 * Creating filters.
@@ -64,39 +63,42 @@ Gain some key isights by yourself using tis (dashboard)[https://public.tableau.c
 
 ### 4.1 Overview of Key Results.
 
-General overview of the number of trips.
-\photo
+* General overview of the number of trips.**
+![Image](https://github.com/user-attachments/assets/6e974b98-74e8-4791-9e8f-4c37fd259d03)
 
-Both user groups share a common seasonality, preferring to use bicycles in the warmer months.
-\photo
+* Both user groups share a common seasonality, preferring to use bicycles in the warmer months.**
+![Image](https://github.com/user-attachments/assets/1143d17f-c927-40a5-8077-e178fd0c257d)
 
-Regarding the distribution by bicycle type, both user types show a similar pattern in the use of classic and electric bicycles, but casual riders choose electric scooters significantly more often.
-\photo\
+* Regarding the distribution by bicycle type, both user types show a similar pattern in the use of classic and electric bicycles, but casual riders choose electric scooters significantly more often.
+![Image](https://github.com/user-attachments/assets/cba3b7d8-6a31-40f0-92e1-fdb5ae7ac6af)
 
 ### 4.2 Detailed Analysis of User Behavior.
 
 Main patterns of each group and their differences from each other.
 
-Casual Riders:
-Weekends: High activity on Saturday and Sunday, which may indicate the use of the service for leisure and recreation.
-\photo
+**Casual Riders:**
 
-Usage Hours: Casual riders use the service significantly more often in the afternoon and evening.
-\photo\
+* **Weekends:** High activity on Saturday and Sunday, which may indicate the use of the service for leisure and recreation.
+![Image](https://github.com/user-attachments/assets/d4c0daa6-a7e2-4a49-ba37-5c513fe772f2)
 
-Annual Members:
-Weekdays: Stable use of the service throughout the weekdays with a decrease on weekends.
-\photo
+* **Usage Hours:** Casual riders use the service significantly more often in the afternoon and evening.
+![Image](https://github.com/user-attachments/assets/ac5f6d55-294c-4ffd-a815-125c895514cc)
 
-Usage Hours: High rates during morning and evening peak hours, characteristic of commuting.
-\photo
+**Annual Members:**
+* **Weekdays:** Stable use of the service throughout the weekdays with a decrease on weekends.
+![Image](https://github.com/user-attachments/assets/d4c0daa6-a7e2-4a49-ba37-5c513fe772f2)
 
-Trip Duration: Annual users mostly use bicycles for trips lasting up to 20 minutes.
-\photo\
+* **Usage Hours:** High rates during morning and evening peak hours, characteristic of commuting to work.
+![Image](https://github.com/user-attachments/assets/ac5f6d55-294c-4ffd-a815-125c895514cc)
 
-Main differences between groups.
-Bicycle Types: Casual riders have a greater preference for using electric scooters compared to annual members.
-Trip Duration: The number of trips lasting 40-60 and over 60 minutes is higher among casual riders than annual members, which supports the hypothesis of a potentially large number of tourists among them.
+* **Trip Duration:** Annual users mostly use bicycles for trips lasting up to 20 minutes.
+![Image](https://github.com/user-attachments/assets/47b262db-3083-4ee0-8df3-529abfa0dc0a)
+
+**Main differences between groups.**
+* **Bicycle Types:** Casual riders have a greater preference for using electric scooters compared to annual members.
+![Image](https://github.com/user-attachments/assets/cba3b7d8-6a31-40f0-92e1-fdb5ae7ac6af)
+* **Trip Duration:** The number of trips lasting 40-60 and over 60 minutes is higher among casual riders than annual members, which supports the hypothesis of a potentially large number of tourists among them.
+![Image](https://github.com/user-attachments/assets/47b262db-3083-4ee0-8df3-529abfa0dc0a)
 
 ## 5. Key Insights.
 

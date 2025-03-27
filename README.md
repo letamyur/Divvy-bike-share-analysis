@@ -37,7 +37,7 @@ All data is divided into 12 separate csv format files, each containing records f
 
 ## 3. Data Cleaning and Transformation.
 
-All stages of data cleaning, processing, and transformation, including Python code and comments, were documented in a [HTML]() file exported from Jupyter Notebook. This document contains a full description of the steps taken to prepare the data for analysis.
+All stages of data cleaning, processing, and transformation, including Python code and comments, were documented in a [ipynb](divvy_trips.ipynb) file exported from Jupyter Notebook. This document contains a full description of the steps taken to prepare the data for analysis.
 However, I will briefly describe my thoughts during the process of working on the dataset.
 Since each individual dataset contained a large number of rows, and consequently a large file size, it was decided to use Python as one of the main tools for working on the project.
 
